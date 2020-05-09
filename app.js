@@ -33,7 +33,6 @@ var objects_location = [{name : "Begova dzamija", latitude : 43.859214, longitud
 
 
 
-
 app.post('/authentication', function (req, res,next) {
 
 	var user = req.body.username;
